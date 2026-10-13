@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="840" cy="189" r="240" fill="#ffffff" opacity="0.10"/>
+  <circle cx="300" cy="472" r="133" fill="#ffffff" opacity="0.08"/>
+  <text x="66" y="585" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="40" font-weight="600" fill="#ffffff" opacity="0.92">前端学习路线</text>
+</svg>

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 关闭 typography 插件给内联代码加的反引号，内联样式由 ProseCode 组件接管 */
+.prose :where(code):not(:where([class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"] *))::after {
+  content: none;
+}
+
+::selection {
+  background-color: oklch(0.55 0.2 275 / 0.25);
+}

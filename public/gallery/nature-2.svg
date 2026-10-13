@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#155e75"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="700" fill="url(#g)"/>
+  <circle cx="560" cy="210" r="160" fill="#ffffff" opacity="0.10"/>
+  <circle cx="200" cy="525" r="88" fill="#ffffff" opacity="0.08"/>
+  <text x="44" y="650" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" font-weight="600" fill="#ffffff" opacity="0.92">湖面倒影</text>
+</svg>
